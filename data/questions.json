@@ -1,0 +1,90 @@
+[
+    {
+        "id":"1",
+        "question":"Which of these traits best describes you?",
+        "gryffindor":"Brave",
+        "ravenclaw":"Clever",
+        "slytherin":"Cunning",
+        "hufflepuff":"Loyal"
+    },
+    {
+        "id":"2",
+        "question":"Your friend has a problem – they're being picked on! What do you do?\n",
+        "gryffindor":"Rush in without thinking and defend them!",
+        "ravenclaw":"Quickly formulate a brilliant plan to help them.",
+        "slytherin":"Consider carefully…what do you get out of this?",
+        "hufflepuff":"Run and get a teacher – they'll be able to help more than you."
+    },
+    {
+        "id":"3",
+        "question":"Which of these would be the best pet EVER?",
+        "gryffindor":"A hippogriff: fierce, fast, and fearless!",
+        "ravenclaw":"An owl or a phoenix: something clever.",
+        "slytherin":"A snake or a lizard.",
+        "hufflepuff":"A dog or a cat: something loyal and kind."
+    },
+    {
+        "id":"4",
+        "question":"What would your position be on the quidditch team?",
+        "gryffindor":"A chaser",
+        "ravenclaw":"A seeker",
+        "slytherin":"A beater",
+        "hufflepuff":"A keeper"
+    },
+    {
+        "id":"5",
+        "question":"If you saw a sign on a door telling you not to enter – Danger, Danger! – what would you do?",
+        "gryffindor":"Go in anyway! If they’re warning people off, there’s something awesome in there!",
+        "ravenclaw":"Leave it alone: there’s probably a good reason for that warning sign…",
+        "slytherin":"Laugh at the sign and go in. As if anything – or anyone – can tell you what to do",
+        "hufflepuff":"Leave. Quickly. And don’t look back."
+    },
+    {
+        "id":"6",
+        "question":"What would your family say is your worst trait",
+        "gryffindor":"Reckless – you don’t think before you act.",
+        "ravenclaw":"A bit of a know-it-all.",
+        "slytherin":"Worst trait? Really? You have no bad traits.",
+        "hufflepuff":"You're too nice for your own good."
+    },
+    {
+        "id":"7",
+        "question":"Which of these elements would your wand contain?",
+        "gryffindor":"Phoenix feathers",
+        "ravenclaw":"Unicorn hair",
+        "slytherin":"Dragon heartstring",
+        "hufflepuff":"Thestral hair"
+    },
+    {
+        "id":"8",
+        "question":"When you look into the Mirror of Erised, what would be your heart's desire reflected back?",
+        "gryffindor":"My family",
+        "ravenclaw":"My dreams",
+        "slytherin":"Myself",
+        "hufflepuff":"My friends"
+    },
+    {
+        "id":"9",
+        "question":"If you could have any superpower, which would you have?",
+        "gryffindor":"Super strength or invincibility: all the better for adventuring!",
+        "ravenclaw":"The power of foresight: so you know what’s coming.",
+        "slytherin":"Mind control: then everyone will do exactly what you say!",
+        "hufflepuff":"Invisibility."
+    },
+    {
+        "id":"10",
+        "question":"Someone steals some money from you – but they’re poor and really need it. What do you do?",
+        "gryffindor":"You grumble about them stealing it but offer them another twenty.",
+        "ravenclaw":"The power of foresight: so you know what’s coming.",
+        "slytherin":"Who cares if they’re poor? That money is yours and no one ever takes what belongs to you!",
+        "hufflepuff":"You let them keep it, befriend them, and offer them your coat."
+    },
+    {
+        "id": "11",
+        "question": "The Sorting Hat always takes your decision into consideration. In which house would you like to be in?",
+        "gryffindor": "Gryffindor",
+        "ravenclaw": "Ravenclaw",
+        "slytherin": "Slytherin",
+        "hufflepuff": "Hufflepuff"
+    }
+]

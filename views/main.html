@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1 id="home" class="logo"><a href="#">The Sorting Ceremony</a></h1>
+    <div id="navHouse">
+        <ul class="main-nav">
+            <li class="nav-item mx-2">
+                <button id="gryffindorHouse" type="button" class="nav-link active btn btn-danger text-light"><img
+                        src="images/house_gryffindor.png" alt="Gryffindor House" class="house">Gryffindor
+                </button>
+            </li>
+            <li class="nav-item mx-2">
+                <button id="ravenclawHouse" type="button" class="nav-link active btn btn-primary text-light"><img
+                        src="images/house_ravenclaw.png" alt="Ravenclaw House" class="house">Ravenclaw
+                </button>
+            </li>
+            <li class="nav-item mx-2">
+                <button id="slytherinHouse" type="button" class="nav-link active btn btn-success text-light"><img
+                        src="images/house_slytherin.png" alt="Slytherin House" class="house">Slytherin
+                </button>
+            </li>
+            <li class="nav-item mx-2">
+                <button id="hufflepuffHouse" type="button" class="nav-link active btn btn-warning text-light"><img
+                        src="images/house_hufflepuff.png" alt="Hufflepuff House" class="house">Hufflepuff
+                </button>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="form-modal" id="loginSignupForms">
+    <div class="wrapper">
+        <div class="container-login">
+            <div class="signup">Sign Up</div>
+            <div class="login">Log In</div>
+            <form action="" method="POST" id="register_form" class="signup-form">
+                <input id="firstNameSignUp" class="form-control" type="text" placeholder="Enter your firstname"><br/>
+                <input id="lastNameSignUp" class="form-control" type="text" placeholder="Enter your lastname"><br/>
+                <input id="emailSignUp" class="form-control" type="text" placeholder="Your Email Address" required
+                       pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$"><br/>
+                <input id="passwordSignUp" class="form-control" type="password" placeholder="Choose a Password"><br/>
+                <button type="submit" id="createAccount" class="btn btn-primary btn-lg">Create account</button>
+            </form>
+            <form action="" method="POST" id="login_form" class="login-form">
+                <input id="emailLogin" class="form-control" type="text" placeholder="Email"><br/>
+                <input id="passwordLogin" class="form-control" type="password" placeholder="Password"><br/>
+                <button type="submit" id="login" class="btn btn-primary btn-lg">Log in</button>
+            </form>
+        </div>
+        <div id="login_board" class="alert alert-secondary mt-2"></div>
+    </div>
+
+</div>
+<div id="introQuiz">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="./images/sorting_hat.png" alt="Sorting Hat">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center intro">
+                <div class="scrolling-limit question">
+                    <div class="scrolling">
+                        <p>Are you a Gryffindor, loyal and true? Cunning and sly as a Slytherin? A bold and clever
+                            Ravenclaw or as patient and kind as a Hufflepuff? Let me sort you into your house.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <button type="submit" id="start" class="btn btn-primary btn-lg">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="question_view">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img id="sortingHatImage" src="./images/sorting_hat.png" alt="Sorting Hat">
+        </div>
+    </div>
+    <div id="question" class="row"></div>
+    <div id="progressBar">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="0"
+                 aria-valuemin="0" aria-valuemax="11" style="width: 0%"></div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col" id="view_members_component">
+        <div id="housemates" class="container">
+            <h3 class="text-light">Housemates</h3>
+
+            <div id="message_board" class="alert alert-secondary mt-2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <button type="submit" id="continue" class="btn btn-primary btn-lg">Continue</button>
+        </div>
+    </div>
+</div>
+<div id="chosenHouse">
+
+</div>
+
+<footer>
+    <div id="logoutbutton" class="container">
+        <div class="row">
+            <div class="col text-center">
+                <button type="submit" id="logOut" class="btn btn-primary btn-lg">Log Out</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./vendors/jquery.min.js"></script>
+<script src="./vendors/popper.min.js"></script>
+<script src="./vendors/bootstrap.min.js"></script>
+<script src="./vendors/anime/anime.js"></script>
+<script src="./animations.js" type="module"></script>
+<script src="./main.js" type="module"></script>
+</body>
+
+</html>
